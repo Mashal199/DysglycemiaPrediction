@@ -2,6 +2,8 @@
 
 For the best understanding of the project, please read the report first, then this readme, then the code files/ipynb notebooks themselves.
 
+## Machine Learning Models
+
 ## Deep Learning Models
 
 ### Setup (Optional)
@@ -30,6 +32,5 @@ The preferred reading order of the notebooks is from the simpler models to the m
 4. Multivariate Resampled LSTM Model.ipynb
 5. Multivariate Decomp Split LSTM Model.ipynb
 
-If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown above. You may skip the LSTM Model.ipynb file entirely. Note this will take around 4+ hours on a local machine.
+If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown above. You may skip the LSTM Model.ipynb file entirely. Note this will take around 5+ hours on a local machine.
 
-## Machine Learning Models
