@@ -16,13 +16,13 @@ This setup is not required, it's only there if you don't already have a setup to
 - conda activate myenv
 - pip install tensorflow==2.10.0
 
-4. You may close the anaconda prompt. Open Anaconda Navigator and from the middle dropdown at the top, select the "myenv" environment.
+4. You may close the anaconda prompt. Open Anaconda Navigator. From the middle dropdown at the top, select the "myenv" environment.
 5. Find Jupyter Notebook from the applications below and run it.
 6. You should be able to navigate to the ipynb files from our project to open and run them.
 
 ### Reading Order
 
-The preferred reading order of the notebooks is from the simpler models to the more complex. Starting with the EDA and Datagen for deep learning. The "LSTM Model.ipynb" is an optional file to read, it is only used as a benchmark and it is uninteresting and unnecessary to run for our research/experimentation.
+The preferred reading order of the notebooks is from the simpler models to the more complex. Starting with the EDA and Datagen for deep learning. The "LSTM Model.ipynb" is an optional file to read, it is only used as a benchmark and it is uninteresting and unnecessary to run for our study.
 
 1. Small MIMIC EDA and LSTM Datagen.ipynb
 2. LSTM Model.ipynb
