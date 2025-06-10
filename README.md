@@ -35,5 +35,14 @@ The preferred reading/execution order of the notebooks is from the simpler model
 4. Multivariate Resampled LSTM Model.ipynb
 5. Multivariate Decomp Split LSTM Model.ipynb
 
+### Work Completion
+
+Linear Regression: Zion Knight
+Logistic Regression: Zion Knight
+Random Forest: Oliver Smith
+XGBoost: Andy Than
+LSTM: Mashal Khan
+SVR: Jannik Ernst
+
 
 
