@@ -2,9 +2,11 @@
 
 For the best understanding of the project, please read the report first, then this readme, then the code files/ipynb notebooks themselves.
 
+## Machine Learning Models
+
 ## Deep Learning Models
 
-### Setup (Optional)
+### Setup Part 1 (Optional)
 
 This setup is not required, it's only there if you don't already have a setup to view Jupyter Notebooks, otherwise you may skip these steps (unless errors occur, then follow these steps).
 
@@ -17,9 +19,13 @@ This setup is not required, it's only there if you don't already have a setup to
 - pip install tensorflow==2.10.0
 - pip install keras-tuner
 
-4. You may close the anaconda prompt. Open Anaconda Navigator and from the middle dropdown at the top, select the "myenv" environment.
+4. You may close the anaconda prompt. Open Anaconda Navigator. From the middle dropdown at the top, select the "myenv" environment.
 5. Find Jupyter Notebook from the applications below and run it.
 6. You should be able to navigate to the ipynb files from our project to open and run them.
+
+### Setup Part 2 (Required for code execution)
+
+If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset (in gzip format) in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown below. You may skip the LSTM Model.ipynb file entirely. Note this will take around 5+ hours on a local machine.
 
 ### Reading Order
 
@@ -34,3 +40,12 @@ The preferred reading order of the deep learning notebooks is from the simpler m
 If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown above. You may skip the LSTM Model.ipynb file entirely. Note running all notebooks will take around 4+ hours on a local machine.
 
 ## Machine Learning Models
+
+### Work Completion
+
+Linear Regression: Zion Knight
+Logistic Regression: Zion Knight
+Random Forest: Oliver Smith
+XGBoost: Andy Than
+LSTM: Mashal Khan
+SVR: Jannik Ernst
