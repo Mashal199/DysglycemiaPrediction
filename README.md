@@ -10,11 +10,12 @@ This setup is not required, it's only there if you don't already have a setup to
 
 1. You may download and install Anaconda Navigator from https://www.anaconda.com/products/navigator.
 2. Open Anaconda Prompt from the start menu (which is a terminal)
-3. Run these commands:
+3. Run these commands in order:
 
 - conda create -n myenv python=3.9 numpy pandas matplotlib seaborn scikit-learn jupyter
 - conda activate myenv
 - pip install tensorflow==2.10.0
+- pip install keras-tuner
 
 4. You may close the anaconda prompt. Open Anaconda Navigator and from the middle dropdown at the top, select the "myenv" environment.
 5. Find Jupyter Notebook from the applications below and run it.
@@ -22,7 +23,7 @@ This setup is not required, it's only there if you don't already have a setup to
 
 ### Reading Order
 
-The preferred reading order of the notebooks is from the simpler models to the more complex. Starting with the EDA and Datagen for deep learning. The "LSTM Model.ipynb" is an optional file to read, it is only used as a benchmark and it is uninteresting and unnecessary to run for our research/experimentation.
+The preferred reading order of the deep learning notebooks is from the simpler models to the more complex. Starting with the EDA and Datagen for DL. The "LSTM Model.ipynb" is an optional file to read, it is only used as a benchmark and it is uninteresting and unnecessary to run for our research/experimentation.
 
 1. Small MIMIC EDA and LSTM Datagen.ipynb
 2. LSTM Model.ipynb
@@ -30,6 +31,6 @@ The preferred reading order of the notebooks is from the simpler models to the m
 4. Multivariate Resampled LSTM Model.ipynb
 5. Multivariate Decomp Split LSTM Model.ipynb
 
-If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown above. You may skip the LSTM Model.ipynb file entirely. Note this will take around 4+ hours on a local machine.
+If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown above. You may skip the LSTM Model.ipynb file entirely. Note running all notebooks will take around 4+ hours on a local machine.
 
 ## Machine Learning Models
