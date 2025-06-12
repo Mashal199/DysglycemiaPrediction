@@ -37,10 +37,6 @@ The preferred reading order of the deep learning notebooks is from the simpler m
 4. Multivariate Resampled LSTM Model.ipynb
 5. Multivariate Decomp Split LSTM Model.ipynb
 
-If you wish to reproduce the results found in the notebooks, first put the MIMIC-IV dataset in the root folder of the project or "/". An example would just be a path like "mimic-iv-3.1/mimic-iv-3.1/icu/chartevents.csv.gz" which the code will use. Then run all notebooks in order shown above. You may skip the LSTM Model.ipynb file entirely. Note running all notebooks will take around 4+ hours on a local machine.
-
-## Machine Learning Models
-
 ### Work Completion
 
 Linear Regression: Zion Knight
